@@ -1,6 +1,30 @@
 # QuotesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+- This is a Quotes web app. It can be any type quote that the user wants to share.
+- Using the app, the user can upvote a quote, downvote, or delete a quote. One is also able to see the number of upvotes and downvotes.
+
+## Author.
+**Mburiah Betty**
+ - *Project* - Live link at: https://mburiah.github.io/literate-octo-quote/
+
+## Requirements
+Internet connection is required.
+
+## BDD
+*  BDD stands for Behaviour-Driven Development.
+
+ | Input | Description| Output |
+ |:---    | ---: | ---: |
+ | Quote | A sentence quote by user | New quote is created |   
+ | Upvote | Click on button | An upvote is added |
+ | Downvote | Click on button| A downvote is added |
+ | Delete | Click to delete quote| The selected quote is deleted |
+
+## Technologies used.
+* Angular 8
+* Typescript
+* HTML, CSS and Javascript.
+* Bootstrap
 
 ## Development server
 
@@ -22,6 +46,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Contact information.
+* Any queries, comments, contributions are welcome. 
+* Email mburiahb@gmail.com
+
+## License and copyright information.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
