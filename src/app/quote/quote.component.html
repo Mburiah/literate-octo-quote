@@ -11,7 +11,7 @@
         </div>
         <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.user}}</span><span id="date"><span id="datecolor">{{quote.datePosted|date}}</span></span></span>
          <div>
-          <app-quote-details [quote]='quote' (isRead)='quoteDelete($event)'></app-quote-details>
+          <app-quote-details [quote]="quote" (isRead)="quoteDelete($event)"></app-quote-details>
        </div>
       </div>
     </div>
