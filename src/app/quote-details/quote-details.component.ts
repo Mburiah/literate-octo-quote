@@ -10,6 +10,11 @@ export class QuoteDetailsComponent implements OnInit {
 
   @Input() quote: Quote;
   @Output() isRead = new EventEmitter<boolean>();
+
+  deleteQuote(read: boolean) {
+    this.isRead.emit(read);
+  }
+
   constructor() { }
 
   ngOnInit() {
