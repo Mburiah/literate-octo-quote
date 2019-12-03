@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuoteDetailsComponent implements OnInit {
 
+  @Input() quote: Quote;
+  @Output() isRead = new EventEmitter<boolean>();
   constructor() { }
 
   ngOnInit() {
