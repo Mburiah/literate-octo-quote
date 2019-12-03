@@ -16,6 +16,16 @@ export class QuoteComponent implements OnInit {
     new Quote(3, 'I\'m not a great programmer; I\'m just a good programmer with great habits..', 'Why The Lucky Stiff', 'Kent Beck',
     new Date(2019 , 12, 3), 0, 0),
   ];
+
+  quoteDelete(isRead, index) {
+    if (isRead) {
+      let toDelete: boolean = confirm(`Are you sure you want to delete this Quote?`)
+      if (toDelete) {
+        this.quotes.splice(index, 1);
+      }
+
+    }
+  }
   constructor() { }
 
   ngOnInit() {
